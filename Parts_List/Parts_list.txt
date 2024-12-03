@@ -1,0 +1,18 @@
+1Pc Otamatone Techno.   I would guess that this would work on any full Sized Otamatone, but I cant be sure.  I did my build based on the Techno model.
+
+1pc Ableton Live Software or similar to generate the audio...  It can also be a midi sound device such as a keyboard or sound module that accepts midi signals.  T
+
+2pcs Uxcell 5pcs Fader Variable Resistors Mixer 18mm Straight Slide Potentiometer B102 B1K Ohm Linear Single Potentiometers for Dimming Tuning
+Amazon $9.49 for pack of 5
+https://www.amazon.com/dp/B07VY7TL75?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+
+
+1pc SeeedStudio XIOA SAMD21 microcontroller  $5.40 each
+Mouser.com
+https://www.mouser.com/ProductDetail/Seeed-Studio/102010328?qs=GBLSl2AkirtQWO8CTzEK9g%3D%3D
+
+Resistors:
+3pcs 10K Ohm for Selection Switch
+1pc 120K Ohm resistor for neck Rheostat. Can be a 100K Ohm in series with a 22k Ohm as in the wiring diagram
+ 
+NOTE:  This value might vary depending on the consistency in the original Otamatone parts.  I suggest starting with 120K and then adjusting up and down while looking at values on the Arduino debugger.  The idea resistance is the one that gives you the largest range in values.  I was getting about 500 range.  doesn't need to start at zero... just subtract the lowers value from the highest value and that is your range...  Go for the resistor that makes that number as high as possible.  In the future I will revisit this in order to raise the range to at least the full 0-1024.
